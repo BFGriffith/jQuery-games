@@ -1,1 +1,9 @@
 * { text-decoration: none; }
+header {
+  text-align: center;
+}
+header li { display: inline-block; }
+.stickyFooter { text-align: center; }
+.footerNav li {
+  display: inline-block;
+}
