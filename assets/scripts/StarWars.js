@@ -1,4 +1,5 @@
 /* StarWars-RPG 1.0 */
+/* "MVP" progress so far as of homework deadline */
 var StarWarsRPG = {
   gameStage: "initial",
   characterSelected: "",
