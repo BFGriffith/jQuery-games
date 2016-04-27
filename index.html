@@ -20,28 +20,59 @@
       <nav class="topMenu" id="header_contents">
         <ul>
           <li><a href="#">Star Wars RPG</a></li>
-          <li id="separators"> &bull; </li>
+          <li id="separators">  &bull;  </li>
           <li><a href="#">Crystals-Collector</a></li>
         </ul>
       </nav>
     </header>
     <main class="mainContent">
+      <audio src="assets/sounds/VaderRedemption_ImperialMarchMajorKey.mp3" autoplay loop></audio>
+      <img src="assets/images/JediMasterYoda.ico" alt="Jedi Master Yoda" height="42" width="42">
 
+      <div></div>
+
+      <p id="prompts">Choose your character and ignite your lightsaber!</p>
+      <div id="characterOptions">
+        <!-- <a class="characterOptionAvatar" id="LukeSkywalkerAvatar">Luke Skywalker</a>
+        <a class="characterOptionAvatar" id="QuiGonJinnAvatar"></a>
+        <a class="characterOptionAvatar" id="KyloRenAvatar"></a>
+        <a class="characterOptionAvatar" id="DarthVaderAvatar"></a> -->
+
+        <div class="character" id="LukeSkywalker"><img src="assets/images/JediLukeSkywalker.png" alt="Jedi Master Luke Skywalker">
+          <p class="HPdisplay" id="LukeSkywalkerHP">100 hit-points</p>
+        </div>
+        <div class="character" id="QuiGonJinn"><img src="assets/images/Qui-Gon-Jinn-icon.png" alt="Jedi Master Qui-Gon Jinn">
+          <p class="HPdisplay" id="QuiGonJinnHP">150 hit-points</p>
+        </div>
+        <div class="character" id="KyloRen"><img src="assets/images/Kylo-Ren_mask.png" alt="Sith Knight Kylo-Ren">
+          <p class="HPdisplay" id="KyloRenHP">125 hit-points</p>
+        </div>
+        <div class="character" id="DarthVader"><img src="assets/images/DarthVader_icon.png" alt="Sith Lord Darth Vader">
+          <p class="HPdisplay" id="DarthVaderHP">175 hit-points</p>
+        </div>
+      </div>
+      <div id="opponentOptions"></div>
+      <p id="deul">Deul!</p>
+      <div class="playerAvatar"></div>
+      <button class="attackButton">ATTACK!</button>
+      <p>Defending opponent<b>&#11022;</b></p>
+      <div class="defendingOpponents"></div>
+      <div class="opponentSelected"></div>
     </main>
 
     <div class="pushFooter"></div>
   </div>
   <!-- END-pagewrap -->
   <footer class="stickyFooter">
-    <p><em>Thanks for playing!</em></p>
+    <h2><em>Thanks for playing!</em></h2>
     <nav class="footerNav">
       <ul>
         <li><a href="https://twitter.com/ForbesGriffith"><span class="network-name">Twitter</span></a></li>
-        <li id="separators"> &bull; </li>
+        <li id="separators">  &bull;  </li>
         <li><a href="https://github.com/BFGriffith"><span class="network-name">GitHub</span></a></li>
-        <li id="separators"> &bull; </li>
+        <li id="separators">  &bull;  </li>
         <li><a href="http://stackoverflow.com/users/5067139/ben-griffith"><span class="network-name">Stack-Overflow</span></a></li>
-        <li id="separators"> &bull; </li>
+        <li id="separators">  &bull;  </li>
         <li><a href="https://www.linkedin.com/in/bfgriffith"><span class="network-name">LinkedIn</span></a></li>
       </ul>
     </nav>
